@@ -17,7 +17,7 @@ class SomeClass {
     public function __destruct(){
         $this->state = false
         $this->name = ""
-        NCore::nullify($this->key)
+        NCore::Nullify($this->key)
     }
 
     public function Save(){

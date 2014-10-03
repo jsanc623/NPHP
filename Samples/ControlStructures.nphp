@@ -1,0 +1,86 @@
+#  Single line comment
+
+/**
+ * Multiline
+ * Comment
+ */
+
+# Declaring a variable follows the following convention
+var name::type = value
+
+# Declaring a function follows the following convention
+function name(variable type, variable2 type) (type, type) {
+    var returnValue::type
+
+    return returnValue, returnValue
+}
+
+# If statements
+if ( x == 1 ) {
+    
+}
+
+# If/Else statements
+if ( x == 1 ) {
+    
+} else {
+    
+}
+
+# If/Else/Otherwise statements
+if ( x == 1 ) { 
+
+} else {
+    
+} otherwise {
+    
+}
+
+# If/Else/Otherwise/Finally
+if ( x == 1 ) {
+    
+} else {
+    
+} otherwise {
+    
+} finally {
+    
+}
+
+# For loops
+var a::int = 30
+for ( var b::int = 0; b <= a; b++ ) {
+    
+}
+
+# While loops
+var x::bool = false
+while ( x != true ) {
+    x = true
+}
+
+# Do-While loops
+var x::bool = false
+do {
+    x = true
+} while (x != true)
+
+# Foreach Loops
+var x::array = [ "a" : 3, "b" : 5, "c": 9 ]
+foreach ( x as key : value ) {
+    print key, value
+}
+
+# Switch statements
+switch ( x ) {
+    case 1: {
+        print x
+    }
+    case 2: {
+        print x * 2
+    }
+    default: {
+        print "Uh oh"
+    }
+}
+
